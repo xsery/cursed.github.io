@@ -1,1 +1,0 @@
-# cursed.hithub.io
