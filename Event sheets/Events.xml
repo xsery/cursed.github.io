@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Events</name>
+    <events>
+        <event-block sid="582791988070861">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="401857742612139" type="Background">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-1 * (Background.Width - WindowWidth - 5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="587465926430898" type="Background">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
