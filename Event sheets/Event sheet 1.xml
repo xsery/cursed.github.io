@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="moedaouro" sid="125791346617617" static="0" type="number">0</variable>
         <variable constant="0" name="score" sid="690871911354883" static="0" type="number">0</variable>
         <variable constant="0" name="gapsize" sid="725752125410163" static="0" type="number">150</variable>
         <variable constant="0" name="morreu" sid="513630761430485" static="0" type="number">0</variable>
@@ -47,9 +48,6 @@
                 <action behavior="Platform" id="9" name="Set vector Y" sid="472973620518705" type="passaro">
                     <param id="0" name="Vector Y">-650</param>
                 </action>
-                <action behavior="Platform" id="9" name="Set vector Y" sid="254244367375021" type="corpo">
-                    <param id="0" name="Vector Y">-650</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="861818916505790">
@@ -65,7 +63,7 @@
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">-45</param>
                 </action>
-                <action id="-20" name="Rotate toward angle" sid="510320343648255" type="corpo">
+                <action disabled="1" id="-20" name="Rotate toward angle" sid="510320343648255" type="corpo">
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">-45</param>
                 </action>
@@ -84,7 +82,7 @@
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">45</param>
                 </action>
-                <action id="-20" name="Rotate toward angle" sid="861143822812111" type="corpo">
+                <action disabled="1" id="-20" name="Rotate toward angle" sid="861143822812111" type="corpo">
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">45</param>
                 </action>
@@ -122,16 +120,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action disabled="1" id="-3" name="Create object" sid="616167317352049" type="System">
-                            <param id="0" name="Object to create">corpo</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">lerp(passaro.ImagePointX(0),passaro.ImagePointX(0),0.9)</param>
-                            <param id="3" name="Y">lerp(passaro.ImagePointY(-5),passaro.ImagePointY(-5),0.9)</param>
-                        </action>
-                        <action disabled="1" id="-29" name="Move to object" sid="349262907482106" type="corpo">
-                            <param id="0" name="Where">1</param>
-                            <param id="1" name="Object">passaro</param>
-                        </action>
                         <action id="-9" name="Destroy" sid="962531506760922" type="moedaprata" />
                         <action id="-10" name="Add to" sid="234178104110184" type="System">
                             <param id="0" name="Variable">score</param>
@@ -157,15 +145,57 @@
                         <action id="0" name="Set text" sid="981215667998206" type="Text">
                             <param id="0" name="Text">score</param>
                         </action>
-                        <action disabled="1" id="-3" name="Create object" sid="515135779856678" type="System">
+                        <action id="-9" name="Set value" sid="979886306373192" type="System">
+                            <param id="0" name="Variable">moedaouro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="462747028834225">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="564418997112644" type="System">
+                            <param id="0" name="Variable">moedaouro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="136257415670374" type="System">
                             <param id="0" name="Object to create">corpo</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">lerp(passaro.ImagePointX(0),passaro.ImagePointX(0),0.9)</param>
                             <param id="3" name="Y">lerp(passaro.ImagePointY(0),passaro.ImagePointY(0),0.9)</param>
                         </action>
-                        <action disabled="1" id="-29" name="Move to object" sid="612117861820598" type="corpo">
+                        <action id="-29" name="Move to object" sid="669791768630974" type="corpo">
                             <param id="0" name="Where">1</param>
                             <param id="1" name="Object">passaro</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="572482209813951" type="bg">
+                            <param id="0" name="Speed">-500</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="571807613214527" type="canobaixo">
+                            <param id="0" name="Speed">-500</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="921751373381402" type="canocima">
+                            <param id="0" name="Speed">-500</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="699249732196862" type="grama">
+                            <param id="0" name="Speed">-580</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="881939241394864" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="620239957883594" type="bg">
+                            <param id="0" name="Speed">-200</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="582899587376616" type="canobaixo">
+                            <param id="0" name="Speed">-200</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="604120613209737" type="canocima">
+                            <param id="0" name="Speed">-200</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="809752195355268" type="grama">
+                            <param id="0" name="Speed">-220</param>
                         </action>
                     </actions>
                 </event-block>
@@ -177,9 +207,17 @@
             </conditions>
             <actions>
                 <action id="-16" name="Wait" sid="576994523962748" type="System">
-                    <param id="0" name="Seconds">3</param>
+                    <param id="0" name="Seconds">0.1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="806914281808200" type="corpo" />
+                <action id="-9" name="Set value" sid="500140322200568" type="System">
+                    <param id="0" name="Variable">moedaouro</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-29" name="Move to object" sid="656291036473125" type="corpo">
+                    <param id="0" name="Where">1</param>
+                    <param id="1" name="Object">passaro</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="911815266633114">

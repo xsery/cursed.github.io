@@ -19,6 +19,7 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -99,6 +100,9 @@
                 <behavior-type name="Solid" sid="619856916185624">
                     <behavior id="solid" />
                 </behavior-type>
+                <behavior-type name="ShadowCaster" sid="399975995340850">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964590071149444" speed="5">
@@ -173,19 +177,10 @@
         </object-type>
         <object-type name="corpo" sid="980823030815908">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform" sid="791115012200450">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Bullet" sid="701744251560069">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="989865436154711">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470690232025711" speed="5">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470690232025711" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.4" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.4" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.4" />
                 </animation>
             </animation-folder>
