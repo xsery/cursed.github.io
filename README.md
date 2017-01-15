@@ -21,4 +21,4 @@ classical, orchestral, orchestra, symphony, traditional, Tchaikovsky
 
 ## Play
 
-#[PLAY CURSED](cursed/)
+[PLAY CURSED](cursed/)
