@@ -297,12 +297,12 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>tela principal.xml</layout>
+        <layout>main.xml</layout>
+        <layout>game.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>tela principal.xml</event-sheet>
+        <event-sheet>game.xml</event-sheet>
+        <event-sheet>main.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

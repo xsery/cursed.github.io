@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 1</name>
+    <name>game</name>
     <sid>379496520398040</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>game</event-sheet>
     <size>
         <width>830</width>
         <height>460</height>
@@ -420,7 +420,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>49.836986542</x>
-                        <y>34.912193298</y>
+                        <y>35.912193298</y>
                         <z>0</z>
                         <width>116.570877075</width>
                         <height>78.697647095</height>

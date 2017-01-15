@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>tela principal</name>
+    <name>main</name>
     <sid>154315398846719</sid>
-    <event-sheet>tela principal</event-sheet>
+    <event-sheet>main</event-sheet>
     <size>
         <width>730</width>
         <height>360</height>
