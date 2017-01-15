@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Cursed</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>mq4njje893h0</unique-id>
+    <saved-with-version>24100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>730</width>
+        <height>360</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="247936716074818">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="834062690868619">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Player" sid="759598902373089">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="977037036831437">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580454812395867" speed="5">
+                    <frame duration="1" hotspotX="0.513228" hotspotY="0.51462" />
+                    <frame duration="1" hotspotX="0.502591" hotspotY="0.551282" />
+                    <frame duration="1" hotspotX="0.513228" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.512658" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="104796011156931">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Keyboard" sid="558974932906648">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="score" sid="189554649561230">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="146483771376698">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="223939576848373">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="659179727531745">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836805599641658" speed="5">
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.511111" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="668684402504660">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="854172364385822">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="450234934292459">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838811923099448" speed="5">
+                    <frame duration="1" hotspotX="0.568182" hotspotY="0.636364" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="216128194804742">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="556958956552217">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="250219656868059">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="987499733891620" speed="5">
+                    <frame duration="1" hotspotX="0.484375" hotspotY="0.52809" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516484" />
+                    <frame duration="1" hotspotX="0.484375" hotspotY="0.522222" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg" sid="174910089405583">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="277779641768067">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545323909605925" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.45" original-source="C:\Users\irlan.gomes\Documents\font\uea\novo cursed\assert\Trabalho-Pós-Game-bg.png">
+                        <collision-poly>
+                            <point x="0.00145666" y="0.26527" />
+                            <point x="0.998543" y="0.26527" />
+                            <point x="1" y="0.635969" />
+                            <point x="0.000728332" y="0.635349" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="493779276859502">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131546174617670" speed="5">
+                    <frame duration="1" hotspotX="0.573623" hotspotY="0.684327" original-source="C:\Users\irlan.gomes\Documents\font\uea\novo cursed\assert\Trabalho-Pós-Game-Atlas-final.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.498841" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.532464" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="298645524179370">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="363023043879140">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="802722971715476">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628967511951432" speed="5">
+                    <frame duration="1" hotspotX="0.469697" hotspotY="0.56044">
+                        <collision-poly>
+                            <point x="0.0606061" y="0.0467033" />
+                            <point x="0.939394" y="0.0521978" />
+                            <point x="0.943182" y="0.950549" />
+                            <point x="0.0530303" y="0.953297" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.43662" hotspotY="0.579545">
+                        <collision-poly>
+                            <point x="0.0915493" y="0.0426137" />
+                            <point x="0.890845" y="0.0397727" />
+                            <point x="0.890845" y="0.963068" />
+                            <point x="0.0739437" y="0.977273" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.462687" hotspotY="0.6">
+                        <collision-poly>
+                            <point x="0.0634328" y="0.0176471" />
+                            <point x="0.94403" y="0.0264706" />
+                            <point x="0.962686" y="0.988235" />
+                            <point x="0.0708955" y="0.988235" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="arvore" sid="284823912222588">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="109329682429578">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="361648032193148">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540716068335290" speed="5">
+                    <frame duration="1" hotspotX="0.408907" hotspotY="0.0101266">
+                        <collision-poly>
+                            <point x="0.077123" y="0.0176297" />
+                            <point x="0.757085" y="0.0201613" />
+                            <point x="0.732793" y="0.988373" />
+                            <point x="0.0850869" y="0.990905" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="397913634307273">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite5" sid="557938597291969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505657698466882" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\irlan.gomes\Documents\font\uea\cursed\novo\assert\Troncos---Trabalho-Pós-Game-.png">
+                        <collision-poly>
+                            <point x="0.115607" y="0.0877193" />
+                            <point x="0.842486" y="0.119518" />
+                            <point x="0.852601" y="0.5" />
+                            <point x="0.842486" y="0.880482" />
+                            <point x="0.114162" y="0.913377" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="814320755770251">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\irlan.gomes\Documents\font\uea\cursed\novo\assert\Splash.png" />
+        </object-type>
+        <object-type name="Mouse" sid="758738282896605">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite6" sid="211744994678757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="137499932234504" speed="5">
+                    <frame duration="1" hotspotX="0.50211" hotspotY="0.5" original-source="C:\Users\irlan.gomes\Documents\font\uea\cursed\novo\assert\score.png">
+                        <collision-poly>
+                            <point x="0.164557" y="0.24375" />
+                            <point x="0.49789" y="0.1875" />
+                            <point x="0.810127" y="0.28125" />
+                            <point x="0.85654" y="0.5" />
+                            <point x="0.776371" y="0.66875" />
+                            <point x="0.49789" y="0.6875" />
+                            <point x="0.135021" y="0.8" />
+                            <point x="0.135021" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gameover" sid="381849227185414">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite8" sid="190836855918813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="881692077664179" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\irlan.gomes\Documents\font\uea\cursed\novo\assert\Game-over.png">
+                        <collision-poly>
+                            <point x="0.0808824" y="0.180328" />
+                            <point x="0.5" y="0.704918" />
+                            <point x="0.919118" y="0.180328" />
+                            <point x="0.720588" y="0.377049" />
+                            <point x="0.5" y="0.729508" />
+                            <point x="0.121324" y="0.729508" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>tela principal.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>tela principal.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="4">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="5" />
+        <global-instance type="Audio" uid="13">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="14" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="bubble.ogg" />
+        <file name="tema.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
