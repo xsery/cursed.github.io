@@ -17,6 +17,8 @@ The player controls a side-scrolling mobile game featuring 2D retro style graphi
 
 ## ART Concept
 
+https://raw.githubusercontent.com/xsery/cursed.github.io/gh-pages/banner-cursed.png
+
 ## Sound
 	
 Dance of the Sugar Plum Fairy - Tchaikovsky
