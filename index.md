@@ -4,9 +4,12 @@ Cursed is based on the infinity run concept where the player walk throught obsta
 
 Cursed creators:
 
-Francisca Augusto - Developer and Game Designer
-Hanna Pinheiro - Designer
-Irlan Costa - Developer and Game Designer
+*Francisca Augusto - Developer and Game Designer
+
+*Hanna Pinheiro - Designer
+
+*Irlan Costa - Developer and Game Designer
+
 
 ## Gameplay
 The player controls a side-scrolling mobile game featuring 2D retro style graphics. The objective was to direct a flying cursed girl, named "Lilly",[6] who moves continuously to the right, between sets of tree trunks. If the player falls outside the tree trunk, game over. Lilly briefly jumps upward each time that the player taps the screen; if the screen is not tapped, Lilly falls because of gravity; each pair of trunks that she navigates between earns the player a single point, with potions awarded for the score at the end of the game.
