@@ -4,8 +4,11 @@ Cursed is based on the infinity run concept where the player walk throught obsta
 
 
 Cursed creators:
+
 * Francisca Augusto - Developer / Game Designer
+
 * Hanna Pinheiro - Designer
+
 * Irlan Costa -Developer / Game Designer
 
 ## Gameplay
