@@ -16,8 +16,6 @@ The player controls a side-scrolling mobile game featuring 2D retro style graphi
 ## Sound
 	
 Dance of the Sugar Plum Fairy - Tchaikovsky
-Music Tracks >Classical/Orchestral
-classical, orchestral, orchestra, symphony, traditional, Tchaikovsky
 
 ## Play
 
