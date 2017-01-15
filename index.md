@@ -17,7 +17,7 @@ The player controls a side-scrolling mobile game featuring 2D retro style graphi
 
 ## ART Concept
 
-The character inspiration from anime is  young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service. She is thirteen-year-old trainee witch Kiki leaves home with her familiar spirit, a talking black cat named Jiji. She flies on her broomstick to the port city of Koriko. 
+The character inspiration from an anime's  young witch on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service. She is thirteen-year-old trainee witch Kiki leaves home with her familiar spirit, a talking black cat named Jiji. She flies on her broomstick to the port city of Koriko. 
 
 ![Cursed](https://raw.githubusercontent.com/xsery/cursed.github.io/gh-pages/banner-cursed.png)
 
